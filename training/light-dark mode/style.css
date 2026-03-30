@@ -1,0 +1,80 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    width: 100vw;
+    background-color:#fafafa ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+p{
+    padding: 10px;
+}
+input[type='checkbox']{
+    position: relative;
+    width: 200px;
+    margin: 10px;
+    height: 60px;
+    background-color: black;
+    appearance: none;
+    border-radius: 50px;
+    box-shadow: 0px 0px 1px 1px black;
+    transition: 0.5s;
+}
+input[type='checkbox']:checked{
+    background-color: white;
+}
+
+.day .sun{
+    position: absolute;
+    left: 590px;
+    bottom: 277px;
+    height: 50px;
+    width: 50px;
+    color: black;
+}
+.night .moon{
+    position: absolute;
+    right: 594px;
+    bottom: 280px;
+    height: 40px;
+    width: 40px;
+    color: black;
+}
+input[type='checkbox']::before{
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    left: 4px;
+    top: 2px;
+    border-radius: 50%;
+    background-color: aliceblue;
+    content: '';
+    transition: 0.3s;
+}
+input[type='checkbox']:checked::before{
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    left: 140px;
+    top: 2px;
+    border-radius: 50%;
+    background-color: rgba(11, 12, 12,0.5);
+    content: '';
+}
+.dark{
+    background-color: black;
+    color: white;
+}
+

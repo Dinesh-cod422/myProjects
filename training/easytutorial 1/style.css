@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'roboto',sans-serif;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(image/cars\ \(0\).jfif);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+    width: 100%;
+ 
+}
+.logo{
+    width: 50px;
+    cursor: progress;
+}
+.material-symbols-outlined{
+    width: 30px;
+    cursor: progress;
+    color: aliceblue;
+    margin-left: 80px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 15px;
+}
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+    color: yellow;
+  
+}
+.col{
+    flex-basis: 50%;
+}
+h1{
+    font-size: 70px;
+}
+p{
+    font-size: 15px;
+    line-height: 15px;
+}
+button{
+    width: 180px;
+    color: rgb(8, 8, 8);
+    font-size: 15px;
+    padding: 12px 0;
+    background:yellow;
+    border: 0;
+    border-radius: 20px;
+    margin-top: 30px;
+    outline: none;
+}
+.card{
+  
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    border-radius: 10px;
+    transition: 0.5s;
+    background-position: center;
+    background-size: cover;
+
+}
+.card1{
+    background-image: url(image/cars\ \(1\).jfif);
+}
+.card2{
+    background-image: url(image/cars\ \(2\).jfif);
+}
+.card3{
+    background-image: url(image/cars\ \(3\).jfif);
+}
+.card4{
+    background-image: url(image/cars\ \(4\).jfif);
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+h5{
+    color: black;
+    text-shadow: 0 0 5px rgb(248, 247, 247);
+}
+.card p{ 
+    
+    text-shadow: 0 0 5px rgb(243, 12, 12);
+}
+.move{
+    background-color: rgb(12, 223, 152);
+   
+  
+}

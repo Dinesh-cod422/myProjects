@@ -1,0 +1,190 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainpage{
+    width: 400px;
+    height: 500px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+h2{
+    color:crimson;
+    font-size: 30px;
+    position: absolute;
+    top: 40px;
+    left: 0px;
+    font-weight: 900;
+    padding: 0px 40px;
+    border-left: 5px solid crimson ;
+}
+.user{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    top: 120px;
+    position: absolute;
+}
+.user label{
+    font-size: 20px;
+} 
+/* .user input{
+    padding: 20px;
+     width: 260px;
+     height: 10px;
+     border: none;
+     outline: none;
+} */
+.user.active input{
+    padding: 20px;
+    width: 260px;
+    height: 40px;
+    border: none;
+    outline: none;
+}
+.pass{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    top: 230px;
+    position: absolute;
+}
+.pass label{
+    font-size: 20px;
+} 
+.pass input{
+    padding: 20px;
+    width: 260px;
+    height: 40px;
+    border: none;
+    outline: none;
+}
+button{
+    height: 50px;
+    width: 170px;
+    position: absolute;
+    bottom: 100px;
+    font-size: 30px;
+    font-weight: 700;
+    color: crimson;
+    border: none;
+}
+h3{
+    position: absolute;
+    bottom: 50px;
+    opacity: 0.5;
+}
+
+.mainpage2{
+    position: absolute;
+    background-color: #ff5e00;
+    height: 80px;
+    width: 80px;
+    overflow: hidden;
+    border-radius: 50px;
+    top: 45px;
+    left: 630px;
+    color: #ff5e00;
+    transition : 1s ease-in-out;
+
+ }
+ .mainpage2:hover{
+    border-radius:1px;
+    top: 82px;
+    left: 482px;
+    width: 400px;
+    height: 500px;
+    background-color: rgb(172, 182, 190);
+    display: flex;
+    opacity: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    transition: 0.5s;
+}
+ h2{
+    color:crimson;
+    font-size: 30px;
+    position: absolute;
+    top: 40px;
+    left: 0px;
+    font-weight: 900;
+    padding: 0px 40px;
+    border-left: 5px solid crimson ;
+}
+.user2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    top: 110px;
+    position: absolute;
+}
+.user2 label{
+    font-size: 20px;
+} 
+.user2 input{
+    padding: 20px;
+     width: 260px;
+     height: 40px;
+     border: none;
+     outline: none;
+}
+.pass2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    top: 210px;
+    position: absolute;
+}
+.pass2 label{
+    font-size: 20px;
+}  
+ .pass2 input{
+    padding: 20px;
+    width: 260px;
+    height: 40px;
+    border: none;
+    outline: none;
+}
+.pass3{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    top: 300px;
+    position: absolute;
+} 
+ .pass3 label{
+    font-size: 20px;
+}  
+.pass3 input{
+    padding: 20px;
+    width: 260px;
+    height: 40px;
+    border: none;
+    outline: none;
+} 
+ .mainpage2 button{
+    height: 50px;
+    width: 170px;
+    position: absolute;
+    bottom: 40px;
+    font-size: 30px;
+    font-weight: 700;
+    color: crimson;
+    border: none;
+}
+

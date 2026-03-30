@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <!-----font family-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+
+    <!---menu logo-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+
+    <title>THARAI VIRUNTHU</title>
+</head>
+<body>
+    <div class="container">
+      <div class="navbar" id="navlinkbar">
+        <img src="image/Fresh-food-logo-design-on-transparent-background-PNG.png" alt="" class="logo">
+        
+        <nav id="menus">
+            <div class="kk" ><i onclick="hidemenu()"><span class="material-symbols-outlined">
+                keyboard_double_arrow_left
+                </span></i></div>
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="#fooddss">FOODS</a></li>
+                <li><a href="#contact.html">CONTACT</a></li>
+                <li><a href="#footerr.html">ABOUT</a></li>
+            </ul>
+        </nav>
+        <div class="ss" ><i onclick="showmenu()"><span class="material-symbols-outlined" >
+            menu_open
+            </span></i>
+       
+        </div>
+        
+    </div>  
+
+    <h1 class="slide">HEALTHY FOOD MAKES <br> YOU FEEL GOOD</h1>
+</div>
+
+    <!--------------FOODS-------------------->
+
+    <div class="foods" id="fooddss">
+        <h2>ITEMS</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, minus tempora ut quidem <br> deleniti, iure explicabo  quis doloribus corporis exercitationem in voluptate <br> voluptatum pariatur sequi atque eius magnam dolores assumenda!</p>
+        <div class="variety">
+            <div class="card card1">
+                <h3>DOSA</h3>
+                <h5>@100</h5>
+               </div>
+               <div class="card card2">
+                <h3>IDLY</h3>
+                <h5>@50</h5>
+               </div>
+               <div class="card card3">
+                <h3>PAROTA</h3>
+                <h5>@70</h5>
+               </div>
+               <div class="card card4">
+                <h3>RICE</h3>
+                <h5>@150</h5>
+               </div>
+        </div>
+    </div>
+   
+
+    <!----------------CONTACT---------------->
+
+    <div class="contact" id="contact.html">
+        <h2>CONTACT</h2>
+         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut, corporis nam <br> facere hic ipsam corrupti maiores? Esse veniam laboriosam quibusdam maxime voluptatum vero <br> voluptatibus modi quia enim aspernatur. Hic, placeat.</p>
+         <div class="wallpost">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15628.079538015421!2d77.9620206198293!3d11.693003129749247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3babfdb3ee9943b9%3A0xdc5148c5db735977!2zU3JpIEthaWxhc2FuYXRoYXIgVGhpcnVrb2lsLOCupOCuvuCusOCuruCumeCvjeCuleCusuCuruCvjS4!5e0!3m2!1sen!2sin!4v1664952534994!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="forrrm">
+                <form action="">
+                    <h2 class="orderrr">ORDER NOW!!</h2>
+                    <label for="name">Customer Name:</label><br>
+                    <input type="text" name="customer name" id="name" placeholder="fullname"><br>
+                    <label for="phone number">Phone No:</label><br>
+                    <input type="number" name="phone number" id="phno" placeholder="+91"><br>
+                    <label for="email">Email:</label><br>                <input type="email" name="email" id="email" placeholder="@gamil.com"><br>
+                    <label for="address">Address:</label><br>
+                    <textarea name="address" id="address" cols="23" rows="3" placeholder="write down address..."></textarea><br>
+                    <span><button>Submit</button></span>
+                </form>
+             </div>
+         </div>
+
+
+
+         <!---------FOOTER--------->
+
+
+
+         
+         <div class="footer" id="footerr.html">
+            <h2>ABOUT</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut, corporis nam <br> facere hic ipsam corrupti maiores? Esse veniam laboriosam quibusdam maxime voluptatum vero <br> voluptatibus modi quia enim aspernatur. Hic, placeat.</p>
+            <section class="ass">
+            <div class="adres">
+                <address>
+                      <h4>LOCATION:</h4>
+                    Tharamangalam,<br>
+                    Salem,<br>
+                    Pincode-636502.
+                </address>
+            </div>
+            </div>
+        </section>
+         </div>
+        
+    </div>
+
+
+    <!-------script------>
+
+    <script>
+
+        var menus = document.getElementById("menus");
+        function showmenu(){
+            menus.style.right = "0";
+      }
+        function hidemenu(){
+        menus.style.right = "-350px";
+      }
+      </script>
+
+
+</body>
+</html>

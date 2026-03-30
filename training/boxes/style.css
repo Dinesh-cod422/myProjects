@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box ;
+}
+
+.yellow{
+    background: yellow;
+    padding: 45px ;
+    font-size: 20px ;
+    font-weight: bold;
+}
+.blue{
+    background: rgb(57, 205, 241);
+    padding: 70px;
+    text-align: center;
+    color: azure;
+    line-height: 3px;
+    text-shadow: 6px 1px black;
+    
+
+}
+.blue h1{
+    font-size: 50px; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ 
+   
+}
+.blue h3{
+   
+    padding-inline: 60px;
+    font-weight: bold;
+}
+.blue strong{
+    font-size: 22px;
+}
+
+.list{
+    background: rgb(26, 23, 23) ;
+    color: white; 
+    padding: 0px;
+    text-align: center;
+    
+    
+}
+.list div a{
+    text-decoration: none;
+    padding: 9px ;
+    display: block; 
+    color: white;
+    font-size: 20px;
+}
+.list div a:hover{
+    background: #c46060;
+    color: black;
+    text-decoration: none;
+}
+
+.aboutpage{
+    background: #f1f1f1;
+    padding:20px ;
+    display:block;
+}
+.aboutpage h1{
+    font-size: 29px;
+    line-height: 1px;
+}
+.aboutpage h5{
+    font-size: 20px;
+    
+}
+.im{
+    background: rgb(240, 223, 74);
+    width: 100%;
+  padding: 20px;
+  
+}
+.title im{
+    height:200px ;
+}
+
+.aboutpage p{
+    padding-top: 10px;
+    font-size: 20px;
+   
+}
+.title{
+    background: #f1f1f1;
+    padding: 20px;
+    margin-top: 10px;
+}
+.footer{
+    background: rgb(179, 173, 173);
+    padding: 10px;
+    text-align: center;
+}

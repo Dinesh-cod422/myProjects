@@ -1,0 +1,121 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+*{
+    box-sizing: border-box;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(248, 208, 122);
+}
+.container{
+    background-color: white;
+    width: 400px;
+    height: 80px;
+    display: flex;
+    height: 100px;
+    position: relative;
+    padding: 20px 28px;
+    justify-content: space-between;   
+    border-radius: 50px;
+    box-shadow: 0px 10px 29px black;
+}
+
+.circle{
+    overflow: hidden;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(204, 131, 104);
+    height: 60px;
+    width: 60px;
+    border-radius: 40px;
+    z-index: 9;
+    bottom: 300px;
+    
+}
+.circle:hover{
+    height: 80px;
+    width: 80px;
+    height: 200px;
+    border: 50px;
+    bottom: 346px;
+    transition: 0.6s;
+    background-color: rgb(209, 97, 52);
+    box-shadow: 2px 2px 12px 2px rgb(19, 15, 6);
+}
+.circle .plus-icon{
+    color: white;
+    font-weight: 700;
+    font-size: 39px;
+    transition: opacity 0.3s, transform 0.3s;
+}
+.circle:hover .plus-icon{
+    transform: rotate(40deg);
+    opacity: 0;
+}
+.circle .social{
+    position: absolute;
+    top: 195px;
+    color: white;
+    background-color: rgba(255,212,212,0.308);
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    cursor: pointer;
+}
+.circle .social:nth-child(2){
+    opacity: 0;
+    transition: opacity 0.3s top 0.5s ease;
+}
+.circle .social:nth-child(3){
+    opacity: 0;
+    transition: opacity 0.3s top 0.5s 0.1s ease;
+}
+.circle .social:nth-child(4){
+    opacity: 0;
+    transition: opacity 0.3s top 0.5s 0.22s ease;
+}
+.circle:hover .social:nth-child(2){
+    opacity: 1;
+    top: 5px;
+}
+.circle:hover .social:nth-child(3){
+    opacity: 1;
+    top: calc(5px + 60px + 5px);
+}
+.circle:hover .social:nth-child(4){
+    opacity: 1;
+    top: calc(5px + 60px + 5px + 60px + 5px);
+}
+.home,.settings{
+    font-size: 30px;
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    margin-bottom: -190px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(209, 97, 52);
+}
+.home:hover, .settings:hover{
+    transition: 0.5s;
+    font-size: 35px;
+    background-color: rgb(46, 175, 46);
+}

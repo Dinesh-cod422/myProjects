@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(38, 39, 39);
+}
+.container{
+    width: 1100px;
+    height: 510px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #fdfcfd;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+/* -------------------image slider-------------------- */
+
+img{
+    width: 100%;
+    display: block;
+}
+.card-left{
+    width: 600px;
+    overflow: hidden;
+    margin: 7px;
+}
+.main-image{
+    display: flex;
+    transition: all 0.5s ease;
+}
+.img-select{
+    display: flex;
+    margin-top:8px;
+}
+.img{
+    border-radius: 5px;
+    border: 2px solid rgb(248, 250, 248);
+}
+.img:hover{
+    border: 2px solid rgb(243, 239, 17);
+}
+.img img{
+    border-radius: 5px;
+    width: 146px;
+    height: 108px;
+}
+.active{
+    border: 2px solid rgb(11, 243, 69);
+}
+
+/* -------------right side-------- */
+
+.card-right{
+    padding: 10px 20px;
+}
+.card-right h2{
+    font-size: 30px;
+    font-weight: 600;
+}
+.star{
+    display: flex;
+    gap: 20px;
+}
+.star-group ion-icon:nth-child(1),
+.star-group ion-icon:nth-child(2),
+.star-group ion-icon:nth-child(3)
+{
+color: #f5d20d;
+}
+.card-right h4{
+    margin-top: 15px;
+    font-size: 22px;
+    font-weight: 600;
+}
+.card-right h4 span{
+    text-decoration: line-through;
+    color: rgba(0,0,0,0.2);
+    font-size: 14px;
+    padding-left: 10px;
+}
+.card-right p{
+    margin: 15px 0;
+    padding: 10px 0;
+    color: rgba(0,0,0,0.5);
+
+}
+.form{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    margin-bottom: 20px;
+}
+.form-group label,
+.form-group select
+{
+    display: block;
+}
+.form-group select{
+    width: 200px;
+    height: 30px;
+    border: 1px solid rgb(185, 183, 183);
+    border-radius: 5px;
+    outline: none;
+}
+.quantity{
+    margin-left:40px;
+}
+.input-group{
+    display: flex;
+    width: 220px;
+    height: 30px;
+    margin-left: 40px;
+}
+.input-group input{
+    width: 40px;
+    outline: none;
+    padding-left: 15px;
+    border: 1px solid rgb(185, 183, 183);
+}
+.input-group button{
+    width: 30px;
+    border: none;
+    border-radius: 2px;
+    background-color: black;
+    color: white;
+}
+#minus{
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+#plus{
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+.btn-cart{
+    width: 150px;
+    height: 40px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: rgb(13, 100, 231);
+    border-radius: 5px;
+}

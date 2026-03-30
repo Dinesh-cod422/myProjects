@@ -1,0 +1,71 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'digital-7';
+    src: url(digital-7/);
+}
+body{
+    background-color:#a29bfe;
+     width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    background-color: rgb(219, 223, 219);
+    height: 400px;
+    width: 400px;
+    border-radius: 50%; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    user-select: none;
+    cursor: pointer;
+}
+.frame{
+   
+    display: flex;
+
+}
+.hrs,.min,.sec,.ms,.colon{
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 50px;
+    font-family: 'digital-7';
+}
+.colon{
+    width: 10px;
+    height: 50px;
+   
+}
+.buttons{
+    margin-top: 25px;
+}
+.buttons button{
+    border: none;
+    padding: 10px 30px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+.start{
+    background-color:green ;
+}
+.stop{
+    background-color: red;
+}
+.reset{
+    background-color: yellow;
+}
+.start-active,.stop-active{
+    pointer-events: none;
+    opacity: 0.5;
+}
